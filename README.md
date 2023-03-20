@@ -4,7 +4,7 @@ Welcome everyone and thank you for visiting the `IMDB_VIZ_Dash_App` project repo
 
 If you love great movies and need some help figuring out which one to watch next, then you've come to the right place as our app is exactly what you need!
 
-[Link to the IMDB_VIZ_Dash App via Render](https://arjunrk.shinyapps.io/IMDB_Viz_R/)
+[Link to the IMDB_VIZ_Dash App via Render](https://imdb-viz-dash-app.onrender.com)
 
 To read more about our wonderful app, feel free to jump over to one of the sections below or continue scrolling down.
 
