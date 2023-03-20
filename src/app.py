@@ -22,7 +22,8 @@ certificates = movies['Certificate'].unique()
 directors = movies['Director'].unique()
 
 # Creating app layout/frontend
-app = Dash(external_stylesheets=[dbc.themes.SLATE])
+app = Dash(__name__, 
+           external_stylesheets=[dbc.themes.SLATE])
 server = app.server
 
 app.layout = dbc.Container([
