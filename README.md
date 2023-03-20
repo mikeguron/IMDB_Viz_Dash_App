@@ -29,6 +29,8 @@ Users can then move on to the second set of drop down menus in the middle of the
 
 Additionally, all four of these interactive plots also include tooltips, so users can hover over the boxplots to see more detailed information regarding the distribution (i.e. min, Q1, median, Q3, max) and over the bar plots to see the actual value of the ranking metric for each of the top 3 movies.  Thus, with our app, movie lovers can explore various metrics for their favorite directors and preferred certificates all while receiving some recommendations of movies to watch once they are done exploring.
 
+<img src="images/App_Image.JPG"/>
+
 ## Installation
 
 To start off, fork the repo from <https://github.com/mikeguron/IMDB_Viz_Dash_App> and clone the forked repo to your local machine in [VScode](https://code.visualstudio.com/download) by running:
