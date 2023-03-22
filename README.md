@@ -2,11 +2,11 @@
 
 Welcome everyone and thank you for visiting the `IMDB_VIZ_Dash_App` project repository!
 
-If you love great movies and need some help figuring out which one to watch next, then you've come to the right place as our app is exactly what you need!
+If you love great movies and need some help figuring out which one to watch next, then you've come to the right place as this app is exactly what you need!
 
 [Link to the IMDB_VIZ_Dash App via Render](https://imdb-viz-dash-app.onrender.com)
 
-To read more about our wonderful app, feel free to jump over to one of the sections below or continue scrolling down.
+To read more about this wonderful app, feel free to jump over to one of the sections below or continue scrolling down.
 
 - [Motivation and Purpose](#motivation-and-purpose)
 - [Usage](#usage)
@@ -17,7 +17,9 @@ To read more about our wonderful app, feel free to jump over to one of the secti
 
 ## Motivation and Purpose
 
-Choosing a good movie to watch can be a struggle sometimes and there's almost nothing worse than realizing you just spent 2 hours sitting through a horrible movie that you didn't enjoy one bit. Our user-friendly and accessible dashboard aims to help movie enthusiasts avoid this problem by helping them discover and explore new movies based on their movie watching preferences. In addition, our dashboard uses a vast database of movies to provide users with information on ratings, runtimes, and gross revenues presented through engaging visuals based on various metrics they can select via an interactive and intuitive interface.  This dash app was developed as a secondary companion to our original shiny app to allow users to further explore their movie interests through additional variables.  Please refer to the [Proposal](https://github.com/UBC-MDS/IMDB_Viz_R/blob/main/reports/proposal.md) of our original app for more information and be sure to visit our [shiny app](https://arjunrk.shinyapps.io/IMDB_Viz_R/) as well.  In this dash version of our app I chose to focus more on some of the unused variables from our original app, namely `Director` and `Certificate`, and allow users to pick which numeric variable to visualize as a distribution and receive movie recommendations for based on these two categorical variables.
+Choosing a good movie to watch can be a struggle sometimes and there's almost nothing worse than realizing you just spent 2 hours sitting through a horrible movie that you didn't enjoy one bit. This user-friendly and accessible dashboard aims to help movie enthusiasts avoid this problem by helping them discover and explore new movies based on their movie watching preferences. In addition, this dashboard uses a vast database of movies to provide users with information on ratings, runtimes, and gross revenues presented through engaging visuals based on metrics they can select via an interactive and intuitive interface.  
+
+This dash app was developed as a secondary companion to our original shiny app to allow users to further explore their movie interests through additional variables.  Please refer to the [Proposal](https://github.com/UBC-MDS/IMDB_Viz_R/blob/main/reports/proposal.md) of our original app for more information and be sure to visit our [shiny app](https://arjunrk.shinyapps.io/IMDB_Viz_R/) as well.  In this dash version of our app I chose to focus more on some of the unused variables from our original app, namely `Director` and `Certificate`, and allow users to pick which numeric variable to visualize as a distribution and receive movie recommendations for based on these two categorical variables.
 
 ## Usage
 
@@ -43,7 +45,7 @@ Navigate to the folder and run the following in terminal to create and activate 
 
 `conda activate dataviz-532`
 
-In the root directory of the IMDB_Viz_Dash_App folder, run the following to change to the appropriate directory and deploy the app locally:
+In the root directory of the IMDB_Viz_Dash_App folder, run the following lines of code to change to the appropriate directory and deploy the app locally:
 
 `cd src`
 
@@ -55,7 +57,7 @@ Interested in contributing? Check out the [contributing guidelines](https://gith
 
 ## Description of the Data
 
-For the dashboard, we're sourcing the data from Kaggle, which is a well-known platform for data science and machine learning projects. It can be accessed [here](https://www.kaggle.com/datasets/harshitshankhdhar/imdb-dataset-of-top-1000-movies-and-tv-shows). The dataset contains 1000 observations of movie data with a compressive set of features. Some of the key features are the movie's title (Series_Title), the certificate issued (Certificate), release year (Released_Year), runtime (Runtime), genre (Genre), IMDB rating (IMDB_Rating), meta score (Meta_score), director (Director), star power (Star1, Star2, Star3, Star4), number of votes (No_of_votes), and box office earnings (Gross). The dataset also contains a summary of the movie (Overview) which allows the users to quickly understand if the story is something they would prefer or not. For this dash app version, I only extracted movies with no null values and selected title, director, certificate, and the five numerical columns.
+For this dashboard, we're sourcing data from Kaggle, which is a well-known platform for data science and machine learning projects. The original data set can be accessed [here](https://www.kaggle.com/datasets/harshitshankhdhar/imdb-dataset-of-top-1000-movies-and-tv-shows). The data set contains 1000 observations of movie data with a compressive set of features. Some of the key features are the movie's title (Series_Title), the certificate issued (Certificate), release year (Released_Year), runtime (Runtime), genre (Genre), IMDB rating (IMDB_Rating), meta score (Meta_score), director (Director), star power (Star1, Star2, Star3, Star4), number of votes (No_of_votes), and box office earnings (Gross). The dataset also contains a summary of the movie (Overview) which allows the users to quickly understand if the story is something they would prefer or not. For this dash app version, I only extracted rows for movies with no null values and selected the Series_Title, Certificate, Runtime, IMDB_Rating, Meta_score, Director, No_of_votes, and Gross fields.
 
 ## License
 
